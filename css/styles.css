@@ -145,7 +145,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--color-primary-inverted);
     background: var(--color-brend);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    border-color: transparent;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -153,7 +153,6 @@ ul {
 .button-hero:hover,
 .button-hero:focus {
     background: var(--color-secend);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     /* border-radius: 4px; */
 }
 
