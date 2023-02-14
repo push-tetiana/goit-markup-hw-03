@@ -14,9 +14,11 @@ body {
     color: var(--color-secondary);
 }
 
-p, ul, h1, h2, h3, h4, h5, h5 {
+p, ul, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+    margin-bottom: 0;
 }
+
 img {
     display: block;
 }
@@ -54,6 +56,7 @@ img {
 .site-nav {
     display: flex;
     gap: 40px;
+    margin-left: 76px;
 }
 
 ul {
@@ -150,8 +153,8 @@ ul {
 .button-hero:hover,
 .button-hero:focus {
     background: var(--color-secend);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    /* border-radius: 4px; */
 }
 
 /* section-2 */
@@ -287,6 +290,7 @@ ul {
     width: 264px;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-additional);
     margin-top: 16px;
     margin-bottom: 0;
@@ -334,12 +338,17 @@ ul {
     border-right: 1px solid var(--color-additional);
 }
 
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .button-list {
     display: flex;
     justify-content: center;
     flex-grow: 1;
     gap: 24px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .button-item {
@@ -352,6 +361,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-primary-dark);
+    padding-bottom: 8px;
 }
 
 .text-site {
@@ -365,7 +375,6 @@ ul {
 .wrapper-box {
     background-color: var(--color-primary-inverted);
     flex-basis: calc((100% - 48px)/3);
-
 }
 
 .link-site {
